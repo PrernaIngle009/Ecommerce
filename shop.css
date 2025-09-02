@@ -44,11 +44,13 @@
   cursor: pointer;
 }
 .small-img-grp {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 .small-img-col {
-  flex-basis: 24%;
+  /* flex-basis: 24%; */
   cursor: pointer;
 }
 #prodet .single-pro-details {

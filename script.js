@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const thumbImg = document.createElement("img");
         thumbImg.src = img;
         thumbImg.classList.add("small-img");
-        thumbImg.width = 115;
+        thumbImg.width = 100;
         thumbImg.addEventListener("click", () => {
           document.getElementById("mainImg").src = img;
         });
